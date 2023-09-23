@@ -12,7 +12,6 @@ header {
     background: linear-gradient(0deg, rgba(87,255,56,1) 0%, rgba(87,222,127,1) 50%, rgba(22,144,91,1) 100%);
     color: 	#FFE5B4;
     text-align: center;
-    padding: 20px 0;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -142,9 +141,10 @@ footer {
     .landing {
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
-    .header {
-        position: -webkit-sticky;
-        top: 0;
+    header {
+        display: flex;
+        flex-direction: column;
     }
 }
