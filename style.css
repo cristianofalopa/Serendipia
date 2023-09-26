@@ -92,6 +92,8 @@ button {
 button:hover {
     background-color: #94bbe9;
     color: white;
+    min-width: 330px;
+    transition: 0.5s;
 }
 
 /* Estilos de carrito */
